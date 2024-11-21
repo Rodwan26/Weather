@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 20px;
+    background: #262525;
+}
+.Weather{
+    width: 50%;
+    background: linear-gradient(rgba(72, 111, 237, 0.83) , rgb(0, 105, 128));
+     padding: 10px;
+     border-radius: 10px;
+     margin: 10px;
+    
+}
+#Search-btn{
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border:none ;
+    border-radius: 70%;
+    background: white;
+}
+button img{
+   
+    width: 15px;
+    height: 15px;
+}
+input{
+   outline: none;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   margin: 10px;
+   width: 70%;
+   font-size: 20px;
+}
+.Search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 251, 243);
+    display: none;
+}
+#discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+#discription img{
+   margin: 30px;
+}
+#State{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px ;
+}
+#details{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+}
+#info h2{
+    padding-bottom: 5px;
+}
+.displayError{
+    font-size: 40px;
+    color: white;
+      color: rgb(3, 3, 84);
+}
+#city{
+    text-transform: capitalize;
+}
